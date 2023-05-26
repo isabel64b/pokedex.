@@ -1,0 +1,1222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #222222;
+    font-family: 'Mister Pixel 16 pt - Old Style Figure';
+    
+}
+
+header{
+    background: url(img/pokbaner1.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+
+}
+
+.menu{
+    width: 100%;
+    height: 50%;
+    
+}
+
+.logo {
+    width: 265px;
+    height: 90px;
+    float: left;
+}
+
+nav{
+    float: right;
+    width: 50%;
+    margin: 0 ;
+    margin-top: 5px;
+}
+
+.contenedor .li{
+    margin-left: 60px;
+}
+
+.home{
+    width: 80px;
+}
+
+.cart{
+    height: 80px;
+}
+
+.game{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-img{
+    width: 600px;
+    float: right;
+    margin-top: -100px;
+}
+
+.banner-content{
+    width: 100%;
+    height: auto;
+    margin: 2.5rem;
+}
+
+.banner-title{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.banner-text{
+    font-size: 30px;
+    color: #ffffff;
+    margin: 1rem;  
+    margin-top: 30px;
+}
+
+.banner-text p{
+    margin-top: 20px;
+}
+
+.subcontenedor{
+    position: relative;
+}
+
+.subcontenedor .bloque{
+    margin: 1em;
+    padding: 1em;
+}
+
+/*footer*/
+
+.footer{
+    background: url(img/pokbaner2.jpg);
+    width: 100%;
+    height: 15%;
+    bottom: 0;
+    position: fixed;
+}
+
+.footer-img{
+    width: 300px;
+    height: 47px;
+    margin: 2rem;
+    float: right;
+}
+
+.footer-content{
+    color: #ffffff;
+    width: 350px;
+    margin : 1rem;
+}
+
+.footer-content h2{
+    font-size: 20px;
+}
+
+.footer-content h1{
+    font-size: 35px;
+}
+
+/* cartas*/
+
+/*carta 2 */
+
+
+.card_4{
+    width: 25%;
+    margin-top: 150px;
+    margin-left: 93px
+}
+
+.personaje_4{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: #1C4A47;
+    transition: 300ms;
+}
+
+.imagen-personaje_4{
+    height: 250px;
+    width: 300px;
+    background-image: url(img/Charmander_pix.png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.detalle_4{
+    height: 200px;
+    width: 300px;
+    background-color: #1B2E28;
+    position: absolute;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-top: 150px;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    transition: 300ms;
+}
+
+.imagen-personaje_4:hover{
+    background-color: aquamarine ;
+    transform: translateY(600);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Charmander.png);
+}
+
+.personaje_4:hover{
+    background-image: radial-gradient(#007261,#007261);
+}
+
+.detalle_4 h2 {
+    margin-left: 18%;
+    margin-top: 10px;
+    font-size: 35px;
+    color: #fff;
+}
+.detalle_4 p{
+    margin-left: 22%;
+    width: 90%;
+    font-size: 17px;
+    color: #fff;
+}
+
+
+/*carta Jymmy */
+.Jymmy {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/*--------Planta---------*/
+
+.bgjymmy{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #1B2E28;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy:hover{
+    background-image: radial-gradient(#1C4A47,#1C4A47);
+}
+
+.detalle h2 {
+    margin-left: 20%;
+    font-size: 35px;
+    color: #fff;
+}
+.detalle p{
+    margin-left: 22%;
+    width: 90%;
+    font-size: 17px;
+    color: #fff;
+}
+
+.detalle2 h2 {
+    margin-left: 20%;
+    font-size: 28px;
+    color: #fff;
+}
+.detalle2 p{
+    margin-left: 22%;
+    width: 90%;
+    font-size: 17px;
+    color: #fff;
+}
+
+.detalle, .detalle2{
+    margin-top: -15px;
+    height: 210px;
+    width: 250px;
+    background-image: url(img/fondo-tex.jpg);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.imagen{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Bulbasaur-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Bulbasaur.png);
+}
+
+
+.imagen2{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Ivysaur-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen2:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Ivysaur.png);
+}
+
+
+.imagen3{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Venusaur-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen3:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Venusaur.png);
+}
+
+/*-------Fuego-------*/
+
+.bgjymmy2{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #4C000D;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy2:hover{
+    background-image: radial-gradient(#840315,#840315);
+}
+
+.imagen4{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Charmander-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen4:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Charmander.png);
+}
+
+.imagen5{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Charmeleon-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen5:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Charmeleon.png);
+}
+
+.imagen6{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Charizard-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen6:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Charizard.png);
+}
+
+/*-------Agua-------*/
+
+.bgjymmy3{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #091D36;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy3:hover{
+    background-image: radial-gradient(#02356B,#02356B);
+}
+
+.imagen7{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Squirtle-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen7:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Squirtle.png);
+}
+
+.imagen8{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Wartortle-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen8:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Wartortle.png);
+}
+
+.imagen9{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Blastoise-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen9:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Blastoise.png);
+}
+
+/*-------Bicho-------*/
+
+.bgjymmy4{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #043B05;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy4:hover{
+    background-image: radial-gradient(#207B25,#207B25);
+}
+
+.imagen10{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Caterpie-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen10:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Caterpie.png);
+}
+
+.imagen11{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Metapod-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen11:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Metapod.png);
+}
+
+.imagen12{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Butterfree-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen12:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Butterfree.png);
+}
+
+.imagen13{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Weedle-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen13:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Weedle.png);
+}
+
+.imagen14{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Kakuna-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen14:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Kakuna.png);
+}
+
+.imagen15{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Beedrill-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen15:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Beedrill.png);
+}
+
+/*-------Normal-------*/
+
+.bgjymmy5{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #69656F;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy5:hover{
+    background-image: radial-gradient(#ACA1A1,#ACA1A1);
+}
+
+.imagen16{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Pidgey-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen16:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Pidgey.png);
+}
+
+.imagen17{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Pidgeotto-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen17:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Pidgeotto.png);
+}
+
+.imagen18{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Pidgeot-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen18:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Pidgeot.png);
+}
+
+.imagen19{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Rattata-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen19:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Rattata.png);
+}
+
+/*-------Siniestro-------*/
+
+.bgjymmy5{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #363D4D;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy5:hover{
+    background-image: radial-gradient(#69656F,#69656F);
+}
+
+.imagen20{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Rattata\ de\ Alola-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen20:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Rattata\ de\ Alola.png);
+}
+
+.imagen21{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Raticate-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen21:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Raticate.png);
+}
+
+.imagen22{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Raticate_de_Alola-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen22:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Raticate_de_Alola.png);
+}
+
+.imagen23{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Spearow-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen23:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Spearow.png);
+}
+
+.imagen24{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Fearow-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen24:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Fearow.png);
+}
+
+/*-------Veneno-------*/
+
+.bgjymmy6{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #5E2D4F;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy6:hover{
+    background-image: radial-gradient(#965695,#965695);
+}
+
+.imagen25{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Ekans-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen25:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Ekans.png);
+}
+
+.imagen26{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Arbok-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen26:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Arbok.png);
+}
+
+/*-------Electrico-------*/
+
+.bgjymmy7{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #DB8300;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy7:hover{
+    background-image: radial-gradient(#EAA001,#EAA001);
+}
+
+.imagen27{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Pikachu-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen27:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Pikachu.png);
+}
+
+.imagen28{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Raichu-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen28:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Raichu.png);
+}
+
+/*-------Tierra-------*/
+
+.bgjymmy8{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #392B1B;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy8:hover{
+    background-image: radial-gradient(#774E33,#774E33);
+}
+
+.imagen29{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Sandshrew-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen29:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Sandshrew.png);
+}
+
+.imagen30{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Sandslash-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen30:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Sandslash.png);
+}
+
+.imagen31{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Nidoran-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen31:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Nidoran.png);
+}
+
+.imagen32{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Nidorina-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen32:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Nidorina.png);
+}
+
+.imagen33{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Nidoqueen-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen33:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Nidoqueen.png);
+}
+
+.imagen34{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Nidoranm-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen34:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Nidoranm.png);
+}
+
+.imagen35{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Nidorino-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen35:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Nidorino.png);
+}
+
+.imagen36{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Nidoking-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen36:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Nidoking.png);
+}
+
+/*-------Hada-------*/
+
+.bgjymmy9{
+    height: 440px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: #A8296B;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.bgjymmy9:hover{
+    background-image: radial-gradient(#B73060,#B73060);
+}
+
+.imagen37{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Clefairy-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen37:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Clefairy.png);
+}
+
+.imagen38{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Clefable-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen38:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Clefable.png);
+}
+
+.imagen39{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Vulpix-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen39:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Vulpix.png);
+}
+
+.imagen40{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Ninetales-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen40:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Ninetales.png);
+}
+
+.imagen41{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Jigglypuff-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen41:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Jigglypuff.png);
+}
+
+.imagen42{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Wigglytuff-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen42:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Wigglytuff.png);
+}
+
+.imagen43{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Zubat-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen43:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Zubat.png);
+}
+
+.imagen44{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img/Golbat-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen44:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/Golbat.png);
+}
+
+.imagen45{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img1/Oddish-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen45:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img1/Oddish.png);
+}
+
+.imagen46{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img1/Gloom-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen46:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img1/Gloom.png);
+}
+
+.imagen47{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img1/Vileplume-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen47:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img/img1/Vileplume.png);
+}
+
+.imagen48{
+    height: 230px;
+    margin-left: px;
+    background-image: url(img1/Paras-pix.png);
+    background-size: cover;
+    margin-bottom: 15px;
+    transition: 400ms;
+    filter: drop-shadow(5px -4px 10px #000000);
+}
+
+.imagen48:hover{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(img1/Paras.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
